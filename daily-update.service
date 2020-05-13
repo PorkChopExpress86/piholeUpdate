@@ -1,0 +1,9 @@
+# daily-update.service
+
+[Unit]
+Description= Update pi
+Documentation= link to  github
+
+[Service]
+Type= simple
+ExecStart= /home/pi/bin/daily.bash
