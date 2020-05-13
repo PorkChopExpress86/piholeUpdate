@@ -10,8 +10,8 @@ cd ~
 mkdir -p ~/.config/systemd/pi/
 
 # copy service file
-cp $home_dir/daily-service.service ~/.config/systemd/pi/
+cp -R $home_dir/daily-update.service ~/.config/systemd/pi/
 
 mkdir -p ~/bin/
 # copy daily.bash
-cp $home_dir/daily.bash ~/bin/
+cp -R $home_dir/daily.bash ~/bin/
